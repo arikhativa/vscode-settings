@@ -120,5 +120,7 @@
   "remote.SSH.experimental.chat": false,
   "githubPullRequests.codingAgent.enabled": false,
   "typescript.tsserver.log": "verbose",
-  "workbench.editor.openPositioning": "last"
+  "workbench.editor.openPositioning": "last",
+  "editor.fontFamily": "JetBrains Mono, monospace",
+  "editor.fontLigatures": true
 }

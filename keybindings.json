@@ -1,4 +1,3 @@
-// Place your key bindings in this file to override the defaults
 [
   {
     "key": "ctrl+q",
@@ -838,5 +837,45 @@
     "key": "ctrl+shift+s",
     "command": "-workbench.action.files.saveLocalFile",
     "when": "remoteFileDialogVisible"
-  }
+  },
+  {
+    "key": "ctrl+shift+numpad_subtract",
+    "command": "workbench.action.increaseViewSize",
+    "when": "editorFocus && !terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+numpad_add",
+    "command": "workbench.action.decreaseViewSize",
+    "when": "editorFocus && !terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+numpad_add",
+    "command": "workbench.action.increaseViewSize",
+    "when": "sideBarFocus && !terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+numpad_subtract",
+    "command": "workbench.action.decreaseViewSize",
+    "when": "sideBarFocus && !terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+numpad_subtract",
+    "command": "workbench.action.terminal.resizePaneLeft",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+shift+left",
+    "command": "-workbench.action.terminal.resizePaneLeft",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+shift+numpad_add",
+    "command": "workbench.action.terminal.resizePaneRight",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+shift+right",
+    "command": "-workbench.action.terminal.resizePaneRight",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
 ]
