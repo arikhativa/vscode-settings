@@ -259,8 +259,14 @@
     "when": "editorTextFocus && !gitlens:disabled && !gitlens:disabledToggleCodeLens && config.gitlens.keymap == 'chorded'"
   },
   {
-    "key": "ctrl+2",
-    "command": "workbench.action.focusFirstEditorGroup"
+    "key": "ctrl+shift+l",
+    "command": "workbench.action.focusFirstEditorGroup",
+    "when": "sideBarFocus"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "workbench.action.focusSideBar",
+    "when": "!sideBarFocus"
   },
   {
     "key": "ctrl+1",
@@ -269,10 +275,6 @@
   {
     "key": "ctrl+2",
     "command": "-workbench.action.focusSecondEditorGroup"
-  },
-  {
-    "key": "ctrl+shift+l",
-    "command": "workbench.action.focusSideBar"
   },
   {
     "key": "ctrl+0",
