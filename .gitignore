@@ -1,0 +1,7 @@
+# Ignore everything
+*
+
+# EXCEPT the .gitignore file itself
+!.gitignore
+!settings.json
+!keybindings.json

@@ -1,0 +1,124 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "files.autoSave": "onFocusChange",
+  "extensions.ignoreRecommendations": true,
+  "todohighlight.keywordsPattern": "TODO",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "gitlens.views.commitDetails.files.layout": "tree",
+  "workbench.startupEditor": "none",
+  "gitlens.showWhatsNewAfterUpgrades": false,
+  "gitlens.hovers.enabled": false,
+  "accessibility.verbosity.inlineChat": false,
+  "inlineChat.holdToSpeech": false,
+  "inlineChat.accessibleDiffView": "on",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "git.openRepositoryInParentFolders": "never",
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "eslint.run": "onSave",
+  "eslint.timeBudget.onFixes": {
+    "warn": 3000,
+    "error": 6000
+  },
+  "editor.snippetSuggestions": "inline",
+  "typescript.suggest.completeFunctionCalls": true,
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "cSpell.language": "en,he",
+  "yaml.schemas": {
+    "file:///home/yoav/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "redhat.telemetry.enabled": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.formatOnSave": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "settingsSync.keybindingsPerPlatform": false,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "explorer.confirmDelete": false,
+  "atlascode.jira.lastCreateSiteAndProject": {
+    "siteId": "",
+    "projectKey": ""
+  },
+  "git.confirmSync": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "files.associations": {
+    "*.svg": "html",
+    "*.html": "html"
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "asm-intel-x86-generic": false,
+    "asm-collection": false
+  },
+  "[mips]": {},
+  "asm-code-lens.enableCodeLenses": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "database-client.autoSync": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "git.suggestSmartCommit": false,
+  "cSpell.userWords": [
+    "airtable",
+    "fancunality"
+  ],
+  "gitlens.views.scm.grouped.views": {
+    "commits": true,
+    "branches": true,
+    "remotes": true,
+    "stashes": true,
+    "tags": true,
+    "worktrees": true,
+    "contributors": true,
+    "repositories": false,
+    "searchAndCompare": true,
+    "launchpad": false
+  },
+  "githubPullRequests.pushBranch": "always",
+  "githubPullRequests.createOnPublishBranch": "never",
+  "githubPullRequests.pullBranch": "never",
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "editor.lineNumbers": "relative",
+  "editor.suggestOnTriggerCharacters": true,
+  "terminal.integrated.suggest.quickSuggestions": false,
+  "terminal.integrated.suggest.suggestOnTriggerCharacters": false,
+  "explorer.confirmDragAndDrop": false,
+  "chat.agent.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "telemetry.feedback.enabled": false,
+  "githubPullRequests.experimental.chat": false,
+  "remote.SSH.experimental.chat": false,
+  "githubPullRequests.codingAgent.enabled": false,
+  "typescript.tsserver.log": "verbose",
+  "workbench.editor.openPositioning": "last"
+}
