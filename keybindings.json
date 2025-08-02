@@ -794,7 +794,7 @@
     "command": "-workbench.action.toggleSidebarVisibility"
   },
   {
-    "key": "ctrl+shift+d",
+    "key": "ctrl+shift+s",
     "command": "workbench.view.extension.github-cweijan-mysql"
   },
   {
@@ -829,5 +829,14 @@
   {
     "key": "ctrl+shift+m",
     "command": "editor.action.toggleTabFocusMode"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "-workbench.action.files.saveAs"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "-workbench.action.files.saveLocalFile",
+    "when": "remoteFileDialogVisible"
   }
 ]
