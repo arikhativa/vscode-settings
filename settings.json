@@ -1,7 +1,6 @@
 {
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.defaultProfile.linux": "zsh",
-  "files.autoSave": "onFocusChange",
   "extensions.ignoreRecommendations": true,
   "todohighlight.keywordsPattern": "TODO",
   "editor.codeActionsOnSave": {
@@ -30,11 +29,11 @@
     "javascript",
     "typescript"
   ],
-  "eslint.workingDirectories": [
-    {
-      "mode": "auto"
-    }
-  ],
+  // "eslint.workingDirectories": [
+  //   {
+  //     "mode": "auto"
+  //   }
+  // ],
   "cSpell.language": "en,he",
   "yaml.schemas": {
     "file:///home/yoav/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
@@ -43,7 +42,6 @@
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "editor.formatOnSave": true,
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
@@ -56,7 +54,7 @@
   },
   "git.confirmSync": false,
   "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[scss]": {
     "editor.defaultFormatter": "vscode.css-language-features"
@@ -76,7 +74,7 @@
   "[mips]": {},
   "asm-code-lens.enableCodeLenses": false,
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
@@ -89,6 +87,7 @@
   "git.suggestSmartCommit": false,
   "cSpell.userWords": [
     "airtable",
+    "Chatbots",
     "fancunality"
   ],
   "gitlens.views.scm.grouped.views": {
@@ -119,8 +118,18 @@
   "githubPullRequests.experimental.chat": false,
   "remote.SSH.experimental.chat": false,
   "githubPullRequests.codingAgent.enabled": false,
-  "typescript.tsserver.log": "verbose",
+  "typescript.tsserver.log": "off",
   "workbench.editor.openPositioning": "last",
   "editor.fontFamily": "JetBrains Mono, monospace",
-  "editor.fontLigatures": true
+  "editor.fontLigatures": true,
+  "eslint.nodePath": "/usr/local/bin/node",
+  "turboConsoleLog.insertEnclosingClass": false,
+  "turboConsoleLog.insertEnclosingFunction": false,
+  "turboConsoleLog.logMessagePrefix": " - ",
+  "turboConsoleLog.delimiterInsideMessage": "",
+  "turboConsoleLog.logMessageSuffix": ": ",
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "files.autoSave": "afterDelay"
 }
